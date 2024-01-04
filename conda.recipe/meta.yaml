@@ -23,7 +23,7 @@ build:
 requirements:
   build: # build-arch
     - cmake
-    - cython
+    - cython == 0.29.33
     - make
     - doxygen
     - python # specify here so that pinning from build matrix will be applied correctly
